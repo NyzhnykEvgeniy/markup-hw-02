@@ -1,3 +1,41 @@
+.body {
+  color: #ffffff;
+}
+/* 
+ .navigation {
+  background: #ffffff;
+}  */
+.list:hover {
+}
+
 .contacts {
-  color: #2f303a;
+  background: #2f303a;
+}
+.direction-adress {
+  color: #ffffff;
+}
+.direction-mail,
+.direction-phone {
+  color: rgba(255, 255, 255, 0, 6);
+}
+.filter-all,
+.filter-web-sites,
+.filter-app,
+.filter-design,
+.marketing {
+  color: #212121;
+  background: #f5f4fa;
+}
+.filter-all:hover,
+.filter-all:focus,
+.filter-web-sites:hover,
+.filter-app:hover,
+.filter-design:hover,
+.marketing:hover,
+.filter-web-sites:focus,
+.filter-app:focus,
+.filter-design:focus,
+.marketing:focus {
+  color: #ffffff;
+  background: #2196f3;
 }

@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
+  <body class="body">
     <header>
-      <nav>
-        <a href="/">WebStudio</a>
+      <nav class="navigation">
+        <a href="/" class="logo">WebStudio</a>
         <ul>
-          <li><a href="./markup-hw-01/index.html">Студия</a></li>
+          <li><a href="./index.html">Студия</a></li>
           <li><a href="./portfolio.html">Портфолио</a></li>
           <li>Контакты</li>
         </ul>
@@ -25,12 +26,12 @@
     <main>
       <section>
         <h1>Портфолио</h1>
-        <ul>
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+        <ul class="filter">
+          <li><button type="button" class="filter-all">Все</button></li>
+          <li><button type="button" class="filter-web-sites">Веб-сайты</button></li>
+          <li><button type="button" class="filter-app">Приложения</button></li>
+          <li><button type="button" class="filter-design">Дизайн</button></li>
+          <li><button type="button" class="marketing">Маркетинг</button></li>
         </ul>
       </section>
       <div>
@@ -87,9 +88,9 @@
     <footer class="contacts">
       <a href="/">WebStudio</a>
       <address class="direction">
-        г. Киев, пр-т Леси Украинки, 26 <br />
-        info@example.com <br />
-        +38 099 111 11 11
+        <p class="direction-adress">г. Киев, пр-т Леси Украинки, 26</p>
+        <p class="direction-mail">info@example.com</p>
+        <p class="direction-phone">+38 099 111 11 11</p>
       </address>
     </footer>
   </body>
