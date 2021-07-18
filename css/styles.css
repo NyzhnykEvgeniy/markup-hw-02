@@ -1,49 +1,103 @@
+:root {
+  --text-color: #212121;
+  --background-color-site: #ffffff;
+  --background-color-blue: #2196f3;
+}
 .body {
-  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  background-color: var(background-color-site);
 }
-/* 
- .navigation {
-  background: #ffffff;
-}  */
-.navigation .studia,
-.navigation .portfolio {
-  color: #212121;
+.list {
+  list-style: none;
 }
-.navigation .studia.current,
-.navigation .portfolio.current {
-  color: #2196f3;
+/* Навигация */
+.navigation .link {
+  color: var(--text-color);
+  letter-spacing: -0.02em;
+  font-family: Roboto;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
 }
-.list:hover {
+/* Logo */
+.logo {
+  color: var(--text-color);
+  font-family: Raleway, cursive;
+  font-style: Bold;
+  font-size: 26px;
+  line-height: 1.19;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: -0.03em;
+  text-decoration: none;
 }
+span {
+  color: var(--background-color-blue);
+}
+/* переход на страницы */
+.page .link.current {
+  color: var(--background-color-blue);
+}
+.connection .link {
+  color: #757575;
+}
+/* футер */
 
 .contacts {
   background: #2f303a;
+  color: var(--background-color-site);
 }
+.contacts .logo {
+  color: var(--background-color-site);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.direction {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* 
 .direction-adress {
-  color: #ffffff;
-}
+  color: var(--background-color-site);
+}  */
 .direction-mail,
 .direction-phone {
-  color: rgba(255, 255, 255, 0, 6);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
-.filter-all,
-.filter-web-sites,
-.filter-app,
-.filter-design,
-.marketing {
-  color: #212121;
+
+/* кнопки работ */
+
+.button {
+  color: var(--text-color);
   background: #f5f4fa;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
 }
-.filter-all:hover,
-.filter-all:focus,
-.filter-web-sites:hover,
-.filter-app:hover,
-.filter-design:hover,
-.marketing:hover,
-.filter-web-sites:focus,
-.filter-app:focus,
-.filter-design:focus,
-.marketing:focus {
+
+.button:hover,
+.button:focus {
   color: #ffffff;
-  background: #2196f3;
+  background: var(--background-color-blue);
+}
+
+.list h3 {
+  font-size: 18px;
+}
+.list p {
+  font-size: 16px;
 }
