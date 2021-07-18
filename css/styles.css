@@ -94,10 +94,20 @@ span {
   color: #ffffff;
   background: var(--background-color-blue);
 }
-
-.list h3 {
+.list-images {
+  list-style: none;
+}
+.list-images h3 {
+  font-style: normal;
+  font-weight: bold;
   font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .list p {
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
