@@ -5,6 +5,12 @@
  .navigation {
   background: #ffffff;
 }  */
+.navigation .portfolio {
+  color: #212121;
+}
+.navigation .portfolio:hover {
+  color: #2196f3;
+}
 .list:hover {
 }
 
