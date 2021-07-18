@@ -5,10 +5,12 @@
  .navigation {
   background: #ffffff;
 }  */
+.navigation .studia,
 .navigation .portfolio {
   color: #212121;
 }
-.navigation .portfolio:hover {
+.navigation .studia.current,
+.navigation .portfolio.current {
   color: #2196f3;
 }
 .list:hover {
