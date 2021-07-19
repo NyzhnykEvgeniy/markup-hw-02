@@ -6,6 +6,7 @@
 .body {
   font-family: Roboto, sans-serif;
   background-color: var(background-color-site);
+  letter-spacing: 0.03em;
 }
 .list {
   list-style: none;
@@ -13,23 +14,28 @@
 /* Навигация */
 .navigation .link {
   color: var(--text-color);
-  letter-spacing: -0.02em;
-  font-family: Roboto;
-  font-style: Medium;
+  font-style: normal;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
+
+.navigation .link:hover,
+.navigation .link:focus {
+  color: var(--background-color-blue);
+}
+
 /* Logo */
 .logo {
   color: var(--text-color);
-  font-family: Raleway, cursive;
-  font-style: Bold;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  align: Left;
-  vertical-align: Top;
-  letter-spacing: -0.03em;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 span {
@@ -47,6 +53,7 @@ span {
 .contacts {
   background: #2f303a;
   color: var(--background-color-site);
+  text-indent: 50px;
 }
 .contacts .logo {
   color: var(--background-color-site);
@@ -69,7 +76,6 @@ span {
 }  */
 .direction-mail,
 .direction-phone {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -82,9 +88,15 @@ span {
 /* кнопки работ */
 
 .button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.7;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--text-color);
   background: #f5f4fa;
-  font-size: 16px;
   border-radius: 4px;
   cursor: pointer;
 }
